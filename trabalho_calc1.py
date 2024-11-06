@@ -8,5 +8,7 @@ def menu():
     print("[3] - Valor das mínimo")
     print("[4] - Mostrar Gráfico")
 
+print("julio")
+
 
 #PRINCIPAL
