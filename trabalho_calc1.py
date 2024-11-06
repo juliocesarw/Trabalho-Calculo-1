@@ -6,4 +6,6 @@ def menu():
     print("[4] - Valor das raízes")
     print("[5] - Valor das raízes")
 
+print(" asdasd a dpoa")
+
 #PRINCIPAL
