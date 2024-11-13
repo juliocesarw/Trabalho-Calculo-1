@@ -7,7 +7,7 @@
 
 from random import randint
 import math
-import matplotlib
+import matplotlib.pyplot as plt
 def gerar_numero_aleatorio():
     var = randint(1,10)
     return var
@@ -15,8 +15,8 @@ def gerar_numero_aleatorio():
 #VALOR RANDOMICO DO ANGULO E DA VELOCIDADE
 def gerar_angulo():
     vetor = [30, 45, 60]
-    angulo = randint(0,2)
-    return (vetor[angulo]) 
+    indice = randint(0,2)
+    return (vetor[indice]) 
 
 def gerar_velocidade():
     velocidade = randint(1,100)
@@ -31,9 +31,9 @@ def distancia():
     #mostrando na tela para possivel conferencia
     print("DADOS")
     print(f'velocidade: {velocidade}')
-    print(f'angulo radiano: {angulo}')
+    print(f'angulo em graus: {angulo_aleatorio}°')
 
-    altura_maxima = pow(velocidade,2) * pow(math.sin(angulo), 2) / (2 * 9.8)
+    altura_maxima = (pow(velocidade,2) * pow(math.sin(angulo), 2)) / (2 * 9.8)
     return altura_maxima
 
 
